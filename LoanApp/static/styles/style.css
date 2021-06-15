@@ -1,18 +1,14 @@
 @charset "ISO-8859-1";
 
 body{
-    display: grid;
-    background-image:url("bg.jpg");
+  background-image:url("https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.emicontainer{
-  margin-top: 50em;
+.box
+{
+  border: 1px solid black;
 }
-nav{
-  margin-bottom: 25vh;
-}
-
 .buttonemi {
   display: block;
   width: 115px;
@@ -25,8 +21,6 @@ nav{
   font-weight: bold;
   line-height: 25px;
 }
-
-
   input{
     width: 100%;
     height: 40px;
@@ -36,8 +30,8 @@ nav{
   }
   .card{
     padding: 20px;
-   
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-top: 10vh;
   }
   h1{
     text-align: center;
@@ -86,20 +80,23 @@ nav{
     padding: 10px 20px;
     font-weight: bolder;
   }
-  @media only screen and (min-width: 768px){
-    .card{
-      width: 100%;
-    }
-    
-  }
-  .box{
+  /* .box{
     background:black;
     padding:20px 20px 20px 30px;
     border-radius:5px;
     box-shadow:0px 0px 5px rgba(0,0,0,0.5);
     width:80%;
     height:20%;
-   
-}
+  } */
+  .container> .emicontainer
+  {
+    background: none;
+    box-shadow:-5px 5px 5px ;
+  }
+  .container> .resultcontainer
+  {
+    background: none;
+    box-shadow:5px 5px 5px ;
+  }
 
   
